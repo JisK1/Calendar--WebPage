@@ -1,0 +1,42 @@
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<div id="header">
+	<div class="month-select" 
+	style="
+	text-align: center;"><img src="arrow_small.png" alt="Back" 
+	onclick="backArrow()"
+	style="
+	width: 30%;
+    height: 30%;
+    object-fit: contain;"></div>
+
+	<h1 id="month-name" style="width: 40%;"></h1>
+	
+	
+	<div class="month-select"  
+	style="
+	text-align: center;"><img src="arrow_small.png" alt="Back" 
+	onclick="forwardArrow()"
+	style="
+	width: 30%;
+    height: 30%;
+    object-fit: contain;
+	transform: scalex(-1)"
+	></div>
+</div>
+<div>
+	<h2 id="year-name"></h2>
+</div>
+
+<div id="app-calender" style="
+margin-left: 2%;
+margin-right: 2%; 
+border-width:2px;
+border-style:solid;
+border-color:white;"></div>
+
+<div id="footer"></div>
+
+<script src="index.js"> 
+</script>
